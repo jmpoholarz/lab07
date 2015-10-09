@@ -35,13 +35,13 @@ def div(a, b):
 
 
 def exp(a, b):
-	return a ** b
+    return a ** b
 
 # Modulus function
 # a -- dividend
 # b -- divisor
 def mod(a, b):
-	return a % b
+    return a % b
 
 
 
@@ -80,8 +80,8 @@ while (True):
             print "Quotient: ", div(a, b)
         elif (op == "**"):
 			print "Result: ", exp(a, b)
-		elif (op == "%"):
-			print "Result: ", mod(a, b)
+        elif (op == "%"):
+            print "Result: ", mod(a, b)
         else:
             print "Invalid operation..."
 		
